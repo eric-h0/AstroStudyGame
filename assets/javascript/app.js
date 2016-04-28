@@ -9,7 +9,7 @@ $(document).ready(function(){
 
   $("#startButton").on("click", function(){
     time = 30;
-    timer();
+    // timer();
     promptQuestions();
     $(".topPanel").hide();
     $("#gamePanel").show();
@@ -57,19 +57,19 @@ $(document).ready(function(){
     };
   }; //end of promptQuestions
 
-  function timer(){
-    var timing = setInterval(timer, 1000);
-    function timer(){
-      time--;
-      document.querySelector("#timer").innerHTML = "Time remaining: " + time + " seconds.";
-      if (time == 0){
-        time = 31;
-        losses++;
-          document.querySelector("#results").innerHTML = "You are too slow!";
-        timer();
-        promptQuestions();
-        document.querySelector("#losses").innerHTML = "Incorrect: " + losses;
-      }; 
-    };
-  }; //end of timer
+  // function timer(){
+  //   var timing = setInterval(timer, 1000);
+  //   function timer(){
+  //     time--;
+  //     document.querySelector("#timer").innerHTML = "Time remaining: " + time + " seconds.";
+  //     if (time == 0){
+  //       time = 31;
+  //       losses++;
+  //         document.querySelector("#results").innerHTML = "You are too slow!";
+  //       timer();
+  //       promptQuestions();
+  //       document.querySelector("#losses").innerHTML = "Incorrect: " + losses;
+  //     }; 
+  //   };
+  // }; //end of timer
 });
