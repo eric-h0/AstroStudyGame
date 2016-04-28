@@ -29,7 +29,7 @@ font {
   bottom: 100px;
   height: 100%;
   font-family: 'Ropa Sans', sans-serif;
-  font-size: 24px;
+  font-size: 150%;
 }
 
 #logo {
@@ -66,24 +66,24 @@ font {
 
 #q0:hover {
   font-family: 'Ropa Sans', sans-serif;
-  font-size: 24px;
-  color: red;
+  font-size: 100%;
+  color: blue;
 }
 
 #q1:hover {
   font-family: 'Ropa Sans', sans-serif;
-  font-size: 24px;
-  color: red;
+  font-size: 100%;
+  color: blue;
 }
 
 #q2:hover {
   font-family: 'Ropa Sans', sans-serif;
-  font-size: 24px;
-  color: red;  
+  font-size: 100%;
+  color: blue;  
 }
 
 #q3:hover {
   font-family: 'Ropa Sans', sans-serif;
-  font-size: 24px;
-  color: red;  
+  font-size: 100%;
+  color: blue;  
 }
