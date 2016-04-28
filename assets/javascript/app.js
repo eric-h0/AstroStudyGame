@@ -35,7 +35,7 @@ $(document).ready(function(){
           correct.play();
           document.querySelector("#results").innerHTML = "You are correct!";
           wins++
-          document.querySelector("#wins").innerHTML = "Correct " + wins;
+          document.querySelector("#wins").innerHTML = "Correct: " + wins;
           setTimeout(go, 1000)
           function go(){
           promptQuestions();
@@ -46,7 +46,7 @@ $(document).ready(function(){
           incorrect.play();
           document.querySelector("#results").innerHTML = "You are incorrect!";
           losses++
-          document.querySelector("#losses").innerHTML = "Incorrect " + losses;
+          document.querySelector("#losses").innerHTML = "Incorrect: " + losses;
           setTimeout(go, 1000)
           function go(){
           promptQuestions();
@@ -68,7 +68,7 @@ $(document).ready(function(){
           document.querySelector("#results").innerHTML = "You are too slow!";
         timer();
         promptQuestions();
-        document.querySelector("#losses").innerHTML = "Losses: " + losses;
+        document.querySelector("#losses").innerHTML = "Incorrect: " + losses;
       }; 
     };
   }; //end of timer
