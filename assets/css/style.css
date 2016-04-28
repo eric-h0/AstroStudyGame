@@ -18,9 +18,6 @@ footer {
 .topPanel {
   height: 280px;
   text-align: center;
-}
-
-font {
   font-size: 60px;
 }
 
@@ -63,4 +60,3 @@ font {
   font-size: 100%;
   color: blue;
 }
-
