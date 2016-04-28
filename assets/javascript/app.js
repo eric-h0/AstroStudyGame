@@ -8,8 +8,6 @@ $(document).ready(function(){
   $("#gamePanel").hide();
 
   $("#startButton").on("click", function(){
-    time = 30;
-    // timer();
     promptQuestions();
     $(".topPanel").hide();
     $("#gamePanel").show();
@@ -39,7 +37,6 @@ $(document).ready(function(){
           setTimeout(go, 1000)
           function go(){
           promptQuestions();
-          time = 31;
           };
         }
         else{
@@ -50,26 +47,9 @@ $(document).ready(function(){
           setTimeout(go, 1000)
           function go(){
           promptQuestions();
-          time = 31;
           };
         };
       });
     };
-  }; //end of promptQuestions
-
-  // function timer(){
-  //   var timing = setInterval(timer, 1000);
-  //   function timer(){
-  //     time--;
-  //     document.querySelector("#timer").innerHTML = "Time remaining: " + time + " seconds.";
-  //     if (time == 0){
-  //       time = 31;
-  //       losses++;
-  //         document.querySelector("#results").innerHTML = "You are too slow!";
-  //       timer();
-  //       promptQuestions();
-  //       document.querySelector("#losses").innerHTML = "Incorrect: " + losses;
-  //     }; 
-  //   };
-  // }; //end of timer
+  }; 
 });
