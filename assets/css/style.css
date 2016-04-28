@@ -53,40 +53,14 @@ font {
   font-family: 'Ropa Sans', sans-serif;
 }
 
-#question {
-  text-align: center;
-}
-
-#results {
-  text-align: center;
-}
-
-#timer {
-  font-size: 36px;
+#question, #results {
   text-align: center;
 }
 
 
-#q0:hover {
+#q0:hover, #q1:hover, #q2:hover, #q3:hover {
   font-family: 'Ropa Sans', sans-serif;
   font-size: 100%;
   color: blue;
 }
 
-#q1:hover {
-  font-family: 'Ropa Sans', sans-serif;
-  font-size: 100%;
-  color: blue;
-}
-
-#q2:hover {
-  font-family: 'Ropa Sans', sans-serif;
-  font-size: 100%;
-  color: blue;  
-}
-
-#q3:hover {
-  font-family: 'Ropa Sans', sans-serif;
-  font-size: 100%;
-  color: blue;  
-}
