@@ -1,9 +1,9 @@
-body {
-  background-image: url("https://upload.wikimedia.org/wikipedia/commons/d/d7/Carina_Dwarf_Galaxy.jpg");
+/*body {
+  background-image: url("../images/background.jpg");
   background-position: top center !important;
   background-repeat: no-repeat !important;
   background-size: auto;
-}
+}*/
 
 footer {
   position: fixed;
@@ -42,7 +42,7 @@ font {
 }
 
 #dancingTrio {
-  width: 100%;
+  width: 70%;
   height: auto;
 }
 
