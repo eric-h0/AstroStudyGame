@@ -25,6 +25,11 @@ $(document).ready(function(){
     choiceArray=randomQuestion.answers
     answer = randomQuestion.correct
     document.querySelector("#question").innerHTML = randomQuestion.question;
+    var total = wins + losses;
+    var grade = wins / total * 100;
+    if ((wins != 0) || (losses != 0)){
+    $(".grade").html("Your current grade is: " + "<a id='grade'>" + parseInt(grade) + "</a>" + "%")
+    }
     for (i=0; i<choiceArray.length; i++){
       $("#choices").append("<p><span id = q" + i + ">" + '<img id="placeholder" width="20" height="20" src="assets/images/star.jpeg" /> ' + choiceArray[i] + "</span></p>");
         $("#q" + i).click(function(){
@@ -51,5 +56,8 @@ $(document).ready(function(){
         };
       });
     };
+
   }; 
+
+
 });

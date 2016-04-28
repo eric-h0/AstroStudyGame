@@ -27,13 +27,19 @@ footer {
   bottom: 100px;
   height: 100%;
   font-family: 'Ropa Sans', sans-serif;
-  font-size: 150%;
+  font-size: 140%;
 }
 
 #logo {
   width: 300px;
   height: auto;
 }
+
+#grade {
+  color: aqua;
+  font-size: 28px;
+}
+
 
 #correct {
   text-align: center;
