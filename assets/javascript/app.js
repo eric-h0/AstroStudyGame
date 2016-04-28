@@ -21,8 +21,6 @@ $(document).ready(function(){
 
   function promptQuestions(){
     document.querySelector("#results").innerHTML = "";
-    //I can't believe this part actually worked.
-    //Random function makes an array in which you can use jQuery Search functions.
     var choiceArray = [];
     $("#choices").empty();
     randomQuestion = questions[Math.floor(Math.random() * questions.length)];
