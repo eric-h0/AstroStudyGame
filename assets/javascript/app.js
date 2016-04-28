@@ -14,6 +14,8 @@ $(document).ready(function(){
     $(".topPanel").hide();
     $("#gamePanel").show();
     $(".dancingTrio").hide();
+    $('html').css('background','url(assets/images/background.jpg)');
+
 
   }); //End of click function
 
