@@ -202,11 +202,6 @@ var questions     = [
     correct: 3
   },
   {
-    question: "What time of day was today's Astronomy Picture of the Day taken?",
-    answers: ["morning","midday","evening"],
-    correct: 3
-  },
-  {
     question: "Which of the following features provides the best evidence that Pluto remains geologically active?",
     answers: ["Cthulu Regio","Viking Terra","Hayabusa Terra","Sputnik Planum"],
     correct: 4
