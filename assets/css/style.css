@@ -39,6 +39,7 @@ font {
 
 #correct {
   text-align: center;
+  font-family: 'Ropa Sans', sans-serif;
 }
 
 #dancingTrio {
@@ -48,6 +49,7 @@ font {
 
 #losses {
   float: right;
+  font-family: 'Ropa Sans', sans-serif;
 }
 
 #question {
