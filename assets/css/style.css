@@ -1,9 +1,18 @@
 /*body {
-  background-image: url("../images/background.jpg");
+  background-image: url("../images/design.gif");
   background-position: top center !important;
   background-repeat: no-repeat !important;
-  background-size: auto;
+  background-size: 100%;
+  height: 100%
 }*/
+
+html { 
+  background: url("../images/design.gif") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
 footer {
   position: fixed;
